@@ -1,0 +1,458 @@
+/*fuente*/
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Roboto&family=Ysabeau:ital,wght@1,300&display=swap');
+
+/*reset*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*color de fondo*/
+body{
+  background-color: #f2f2f2;
+  text-align: justify;
+  margin: 0px;
+}
+
+/*títulos*/
+h1{
+  font-size: 50px;
+  font-family: 'Castoro Titling', cursive;
+  font-weight: 10;
+  text-align: center;
+  padding-top: 40px;
+}
+
+/*barra navegación*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #45668f;
+  padding: 20px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav img {
+  margin-right: 20px;
+}
+
+.links a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  margin-left: 20px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.links a:hover {
+  background-color: #eee;
+}
+
+/*logo chico*/
+img {
+  display: inline-block;  
+  border-radius: 5px;
+}
+
+/*logo grande index*/
+.contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logogrande {
+  width: 30%; 
+  border-radius: 5px;
+}
+
+.textoderecha {
+  flex: 1;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px; 
+  max-width: 60%;
+}
+
+
+.contenedor h2 {
+  font-size: 40px;
+  font-family: 'Castoro Titling', cursive;
+  font-weight: 15;
+  text-align: center;
+  padding: 30px;
+}
+
+@media (max-width: 1024px){
+  .contenedor{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .textoderecha{
+    max-width: 90%;
+  }
+  .contenedormapayubicacion{
+    flex-direction: column;
+    justify-content: center;
+ }
+ .ubicacion ul {
+  display: flex;
+  text-align: left;
+  flex-wrap: wrap;
+}
+
+  .container {
+    max-width: 1024px;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    text-align: left;
+    padding: 10px;
+  }
+  
+  .card-text {
+    font-size: 20px;
+  }
+}
+
+
+
+
+ @media (max-width: 768px) {
+  nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .links {
+    margin-top: 10px;
+  }
+
+  .links a {
+    margin: 5px;
+  }
+
+  .ubicacion {
+    width: 100%;
+    font-size: 14px;
+    padding: 5px;
+    text-align: left;
+  }
+
+  .ubicacion ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  .ubicacion li {
+    width: 100%;
+    margin-bottom: 5px;
+    padding-left: 0;
+  }
+  
+  .container{
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
+
+@media (max-width: 480px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .links a {
+    margin-bottom: 5px;
+  }
+
+  .contenedormapayubicacion {
+    flex-direction: column;
+  }
+
+  .ubicacion {
+    width: 100%;
+    font-size: 14px;
+    padding: 5px;
+    text-align: left;
+  }
+
+  .ubicacion ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  .ubicacion li {
+    width: 100%;
+    margin-bottom: 5px;
+    padding-left: 0;
+  }
+
+}
+
+/*ubicacion y mapa*/
+.ubicadosen {
+  font-family: 'Castoro Titling', cursive;
+  font-size: 20px;
+  display: inline-block; 
+  position: absolute;
+  left: 800px;
+  top: 1030px;
+  width: 48%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+footer{
+padding: 20px 1px;
+}
+
+.redes {
+  text-align: center;
+  margin: 20px;
+  padding: 5px;
+  font-family: 'Castoro Titling', cursive;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nuestrasredes {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 1px;
+  font-family: 'Castoro Titling', cursive;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.redes a {
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+
+
+/*ubicación*/
+
+.contenedormapayubicacion {
+  display: flex; 
+  justify-content: space-between; 
+  border: 3px solid rgb(201, 188, 188); 
+  padding: 10px; 
+  border-radius: 6px;
+}
+
+.mapa {
+  width: 100%; 
+}
+
+.ubicacion {
+  font-family: 'Castoro Titling', cursive;
+  width: 50%; 
+  align-self: center;
+  font-size: 18px;
+}
+
+.ubicacionubicacion{
+  padding: 40px 10px;
+  width: 50%; 
+  display: flex;
+  justify-content: center;
+
+}
+
+/*profesionales*/
+
+ul li {
+  margin: 20px;
+  font-family: 'Castoro Titling', cursive;
+  font-size: 18px;
+
+}
+ul li a{
+    text-decoration: none;
+}
+.profesionales h2 {
+  font-family: 'Castoro Titling', cursive;
+  font-size: 40px;
+  padding-top: 40px;
+}
+.presionanombres{
+  font-size: 30px;
+  font-family: 'Castoro Titling', cursive;
+  font-weight: 10;
+  text-align: center;
+  padding: 30px;
+}
+
+
+/*areas de practica*/
+.contenedorareas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.listaareas {
+  width: 80%;
+  margin-left: 50px;
+  display: flex;
+  align-items: center; 
+}
+.listaareas ul li{
+  font-size: 30px;
+}
+
+.harvard {
+  width: 70%;
+}
+
+
+/*tabla contacto*/
+form {
+  width: 60%;
+  margin: 20px auto;
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.buttons-container {
+  display: inline-block;
+  position: relative;
+  top: 0;
+  margin-right: 10px;
+}
+
+button[type="submit"],
+button[type="reset"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover,
+button[type="reset"]:hover {
+  background-color: #3e8e41;
+}
+
+/*nuestra historia*/
+
+
+.mainhistoria {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-around;
+  width: 95%;
+  padding-top: 40px;
+  margin: 0 auto;
+}
+
+.text-container {
+  width: 48%;
+}
+
+.image-container {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto; /* ajusta la altura en función del ancho */
+  margin-left: 20px; /* agrega un margen a la izquierda de la imagen */
+}
+
+.containerhistoria {
+  background-color: #749bca;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.historia {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+}
+
+.titulohistoria {
+  font-size: 30px;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  font-family: 'Castoro Titling', cursive;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 90%;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
+.card-body {
+  text-align: left;
+  padding: 10px;
+}
+
+.card-text {
+  font-size: 20px;
+}
+
+
+

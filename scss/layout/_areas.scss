@@ -1,0 +1,22 @@
+.contenedorareas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .listaareas ul li{
+    font-size: 30px;
+  }
+  .listaareas {
+    width: 80%;
+    margin-left: 50px;
+    display: flex;
+    align-items: center; 
+  }
+  .harvard {
+    width: 70%;
+  }
+}
+
+
+
+
+

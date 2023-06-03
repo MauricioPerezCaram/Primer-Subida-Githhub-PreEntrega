@@ -1,0 +1,45 @@
+
+body{
+  background-color: #f2f2f2;
+  text-align: justify;
+  margin: 0px;
+  h1{
+    font-size: 50px;
+    font-family: 'Castoro Titling', cursive;
+    font-weight: 10;
+    text-align: center;
+    padding-top: 40px;
+  }
+  .contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .textoderecha {
+        flex: 1;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 22px; 
+        max-width: 60%;
+      }
+    .logogrande {
+        width: 30%; 
+        border-radius: 5px;
+      }
+
+    h2 {
+        font-size: 40px;
+        font-family: 'Castoro Titling', cursive;
+        font-weight: 15;
+        text-align: center;
+        padding: 30px;
+      }
+  } 
+
+}
+
+
+
+
+
+
+
+

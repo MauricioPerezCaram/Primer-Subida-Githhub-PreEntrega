@@ -1,0 +1,36 @@
+form {
+    width: 60%;
+    margin: 20px auto;
+    background-color: #f7f7f7;
+    padding: 20px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .buttons-container {
+    display: inline-block;
+    position: relative;
+    top: 0;
+    margin-right: 10px;
+  }
+  
+  button[type="submit"],
+  button[type="reset"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover,
+  button[type="reset"]:hover {
+    background-color: #3e8e41;
+  }
+  

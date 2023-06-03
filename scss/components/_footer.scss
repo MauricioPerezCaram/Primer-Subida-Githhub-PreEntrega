@@ -1,0 +1,71 @@
+footer{
+    padding: 20px 1px;
+    }
+
+.ubicadosen {
+    font-family: 'Castoro Titling', cursive;
+    font-size: 20px;
+    display: inline-block; 
+    position: absolute;
+    left: 800px;
+    top: 1030px;
+    width: 48%;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  .redes {
+    text-align: center;
+    margin: 20px;
+    padding: 5px;
+    font-family: 'Castoro Titling', cursive;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nuestrasredes {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 1px;
+    font-family: 'Castoro Titling', cursive;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .redes a {
+    text-decoration: none;
+    margin: 0 5px;
+  }
+    
+  .contenedormapayubicacion {
+    display: flex; 
+    justify-content: space-between; 
+    border: 3px solid rgb(201, 188, 188); 
+    padding: 10px; 
+    border-radius: 6px;
+  }
+  
+  .mapa {
+    width: 100%; 
+  }
+  
+  .ubicacion {
+    font-family: 'Castoro Titling', cursive;
+    width: 50%; 
+    align-self: center;
+    font-size: 18px;
+  }
+  
+  .ubicacionubicacion{
+    padding: 40px 10px;
+    width: 50%; 
+    display: flex;
+    justify-content: center;
+  
+  }    

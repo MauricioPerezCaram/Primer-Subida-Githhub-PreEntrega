@@ -1,0 +1,53 @@
+.mainhistoria {
+    display: flex;
+    justify-content: flex-end;
+    .content-container {
+        display: flex;
+        justify-content: space-around;
+        width: 95%;
+        padding-top: 40px;
+        margin: 0 auto;
+      }
+      .text-container {
+        width: 48%;
+      }
+      .image-container {
+        width: 35%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .image-container img {
+        max-width: 100%;
+        height: auto; 
+        margin-left: 20px; 
+      }
+      
+      .containerhistoria {
+        background-color: #749bca;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 20px;
+      }
+      .historia {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 22px;
+      }
+      
+      .titulohistoria {
+        font-size: 30px;
+        padding-top: 25px;
+        padding-bottom: 10px;
+        font-family: 'Castoro Titling', cursive;
+      }
+  }
+  
+
+  
+
+  
+
+  
+
+  

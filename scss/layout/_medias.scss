@@ -1,0 +1,96 @@
+@media (max-width: 1024px){
+    .contenedor{
+      flex-direction: column;
+      justify-content: center;
+    }
+    .textoderecha{
+      max-width: 90%;
+    }
+    .contenedormapayubicacion{
+      flex-direction: column;
+      justify-content: center;
+   }
+   .ubicacion ul {
+    display: flex;
+    text-align: left;
+    flex-wrap: wrap;
+  }
+  
+    .container {
+      max-width: 1024px;
+    }
+  
+    .card {
+      width: 100%;
+      max-width: 500px;
+      margin-bottom: 20px;
+    }
+    
+    .card-img-top {
+      width: 100%;
+      height: 450px;
+      object-fit: cover;
+    }
+    
+    .card-body {
+      text-align: left;
+      padding: 10px;
+    }
+    
+    .card-text {
+      font-size: 20px;
+    }
+  }  
+  
+   @media (max-width: 768px) {
+  
+    .ubicacion {
+      width: 100%;
+      font-size: 14px;
+      padding: 5px;
+      text-align: left;
+    }
+  
+    .ubicacion ul {
+      padding: 0;
+      margin: 0;
+    }
+  
+    .ubicacion li {
+      width: 100%;
+      margin-bottom: 5px;
+      padding-left: 0;
+    }
+    
+    .container{
+      flex-direction: column;
+      align-items: center;
+    }
+  
+  }
+  
+  @media (max-width: 480px) {
+  
+    .contenedormapayubicacion {
+      flex-direction: column;
+    }
+  
+    .ubicacion {
+      width: 100%;
+      font-size: 14px;
+      padding: 5px;
+      text-align: left;
+    }
+  
+    .ubicacion ul {
+      padding: 0;
+      margin: 0;
+    }
+  
+    .ubicacion li {
+      width: 100%;
+      margin-bottom: 5px;
+      padding-left: 0;
+    }
+  
+  }

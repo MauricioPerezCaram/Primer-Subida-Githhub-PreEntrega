@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 footer {
@@ -94,7 +95,6 @@ nav ul li {
 body {
   text-align: justify;
   margin: 0px;
-  background-image: linear-gradient(rgba(238, 238, 238, 0.9333333333), f2f2f2(172, 171, 162));
 }
 body h1 {
   color: rgba(66, 66, 66, 0.9333333333);
@@ -252,8 +252,11 @@ body .contenedor h2 {
 form {
   width: 60%;
   margin: 20px auto;
-  background-color: #f7f7f7;
+  background-color: rgba(238, 238, 238, 0.9333333333);
   padding: 20px;
+}
+form .form-control {
+  background-color: rgba(238, 238, 238, 0.9333333333);
 }
 
 input[type=text],
@@ -274,7 +277,7 @@ textarea {
 button[type=submit],
 button[type=reset] {
   background-color: #4CAF50;
-  color: white;
+  color: rgba(238, 238, 238, 0.9333333333);
   padding: 10px 20px;
   border: none;
   cursor: pointer;
@@ -328,7 +331,7 @@ button[type=reset]:hover {
 }
 
 body {
-  background-image: linear-gradient(rgba(179, 174, 174, 0.9333333333), #f2f2f2);
+  background-color: #b3b3b3;
 }
 
 /*# sourceMappingURL=style.css.map */

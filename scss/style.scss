@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Roboto&family=Ysabeau:ital,wght@1,300&display=swap');
 
 @import 'base/vars';
+@import 'base/utilities';
 @import 'base/reset';
 
 @import 'components/footer';
@@ -15,5 +16,5 @@
 
 
 body {
-    background-image: linear-gradient(#b3aeaeee, #f2f2f2);
+    background-color: $main-color;
 }

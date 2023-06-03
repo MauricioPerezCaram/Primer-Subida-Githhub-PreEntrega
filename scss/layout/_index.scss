@@ -1,10 +1,12 @@
 
 body{
-  background-color: #f2f2f2;
   text-align: justify;
   margin: 0px;
+  background-image: linear-gradient(#eeee, f2f2f2(172, 171, 162));
   h1{
+    color: #424242ee;
     font-size: 50px;
+    font-weight: bold;
     font-family: 'Castoro Titling', cursive;
     font-weight: 10;
     text-align: center;
@@ -27,6 +29,7 @@ body{
 
     h2 {
         font-size: 40px;
+        color: #424242ee;
         font-family: 'Castoro Titling', cursive;
         font-weight: 15;
         text-align: center;

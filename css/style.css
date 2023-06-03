@@ -25,25 +25,12 @@ h1{
 }
 
 /*barra navegación*/
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #45668f;
-  padding: 20px;
-  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
-  font-family: 'Montserrat', sans-serif;
-}
-
-nav img {
-  margin-right: 20px;
+header {
+  background-color: blue; /* Cambia "blue" por el color de fondo deseado */
 }
 
 .links a {
-  color: white;
   font-size: 20px;
-  text-decoration: none;
-  margin-left: 20px;
   padding: 10px 15px;
   border-radius: 20px;
   transition: background-color 0.3s ease;
@@ -52,6 +39,7 @@ nav img {
 .links a:hover {
   background-color: #eee;
 }
+
 
 /*logo chico*/
 img {

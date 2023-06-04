@@ -192,6 +192,9 @@ body .contenedor h2 {
   }
 }
 @media (max-width: 480px) {
+  .listaareayfoto {
+    flex-direction: column;
+  }
   .contenedormapayubicacion {
     flex-direction: column;
   }
@@ -215,14 +218,15 @@ body .contenedor h2 {
   width: 100%;
   display: flex;
   justify-content: center;
+  gap: 5px;
 }
 .container .card {
-  width: 90%;
+  width: 100%;
   max-width: 500px;
   margin-bottom: 20px;
+  background-color: #e0dbdb;
 }
 .container .card-img-top {
-  width: 100%;
   height: 450px;
   object-fit: cover;
 }
@@ -234,22 +238,43 @@ body .contenedor h2 {
   font-size: 20px;
 }
 
-.contenedorareas {
+/*.listaareayfoto {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.contenedorareas .listaareas ul li {
-  font-size: 30px;
-}
-.contenedorareas .listaareas {
-  width: 80%;
-  margin-left: 50px;
+
+  justify-content: space-evenly;
+  padding: 20px;
+  .listaareas{
+    font-size: 30px;
+    }
+  }
+}*/
+.listaareayfoto {
   display: flex;
   align-items: center;
+  padding: 20px;
 }
-.contenedorareas .harvard {
-  width: 70%;
+.listaareayfoto .listaareas {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  flex-basis: 50%;
+  max-width: 50%;
+}
+.listaareayfoto .listaareas ul li {
+  font-family: "Castoro Titling", cursive;
+  color: rgba(66, 66, 66, 0.9333333333);
+}
+.listaareayfoto .fotoareas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 50%;
+  max-width: 50%;
+}
+.listaareayfoto .fotoareas img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 5px;
 }
 
 form {

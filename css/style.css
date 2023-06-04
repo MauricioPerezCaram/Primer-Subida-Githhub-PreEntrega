@@ -213,6 +213,9 @@ body .contenedor h2 {
     margin-bottom: 5px;
     padding-left: 0;
   }
+  .content-container {
+    flex-direction: column;
+  }
 }
 .container {
   width: 100%;
@@ -328,7 +331,7 @@ button[type=reset]:hover {
   margin: 0 auto;
 }
 .mainhistoria .text-container {
-  width: 48%;
+  width: 80%;
 }
 .mainhistoria .image-container {
   width: 35%;
@@ -352,6 +355,7 @@ button[type=reset]:hover {
   font-size: 22px;
 }
 .mainhistoria .titulohistoria {
+  color: rgba(66, 66, 66, 0.9333333333);
   font-size: 30px;
   padding-top: 25px;
   padding-bottom: 10px;

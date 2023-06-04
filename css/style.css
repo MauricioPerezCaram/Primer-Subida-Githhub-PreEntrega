@@ -269,12 +269,12 @@ body .contenedor h2 {
   justify-content: center;
   align-items: center;
   flex-basis: 50%;
-  max-width: 50%;
+  max-width: 100%;
 }
 .listaareayfoto .fotoareas img {
-  max-width: 90%;
+  max-width: 70%;
   height: auto;
-  border-radius: 5px;
+  border-radius: 2px;
 }
 
 form {

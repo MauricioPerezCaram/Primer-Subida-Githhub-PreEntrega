@@ -1,7 +1,9 @@
-@mixin flex ($direction, $justify, $align, $gap){
+@mixin flex ($direction, $center, $align, $font, $size, $padding){
     display: flex;
     flex-direction: $direction;
-    justify-content: $justify;
+    justify-content: $center;
     align-items: $align;
-    gap: $gap;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 20px;
 }

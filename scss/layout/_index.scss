@@ -16,10 +16,7 @@ body{
     align-items: center;
     justify-content: center;
     .textoderecha {
-        flex: 1;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 22px; 
-        max-width: 60%;
+      @include flex (column, center, center, sans-serif, 20px, 20px);
       }
     .logogrande {
         width: 30%; 

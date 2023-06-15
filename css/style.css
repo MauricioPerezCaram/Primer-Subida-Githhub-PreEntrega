@@ -80,16 +80,14 @@ ul {
 nav .links a {
   font-size: 20px;
   padding: 10px 15px;
-  border-radius: 20px;
-  transition: background-color 0.3s ease;
+  border-radius: 15px;
+  transition: background-color 0.4s ease;
 }
 nav .links a:hover {
-  background-color: #eee;
+  background-color: #696969;
 }
 nav ul li {
   margin: 20px;
-  font-family: "Castoro Titling", cursive;
-  font-size: 18px;
 }
 
 body {
@@ -241,16 +239,6 @@ body .contenedor h2 {
   font-size: 20px;
 }
 
-/*.listaareayfoto {
-  display: flex;
-
-  justify-content: space-evenly;
-  padding: 20px;
-  .listaareas{
-    font-size: 30px;
-    }
-  }
-}*/
 .listaareayfoto {
   display: flex;
   align-items: center;

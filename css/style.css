@@ -242,7 +242,7 @@ body .contenedor h2 {
 .listaareayfoto {
   display: flex;
   align-items: center;
-  padding: 20px;
+  padding: 15px;
 }
 .listaareayfoto .listaareas {
   display: flex;
@@ -263,9 +263,9 @@ body .contenedor h2 {
   max-width: 100%;
 }
 .listaareayfoto .fotoareas img {
-  max-width: 70%;
+  max-width: 90%;
   height: auto;
-  border-radius: 2px;
+  border-radius: 10px;
 }
 
 form {

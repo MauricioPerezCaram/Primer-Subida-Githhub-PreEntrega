@@ -274,6 +274,16 @@ body .contenedor h2 {
   border-radius: 10px;
 }
 
+.textoareas {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  flex-basis: 50%;
+  font-family: "Castoro Titling", cursive;
+  color: rgba(66, 66, 66, 0.9333333333);
+}
+
 .textocontacto {
   color: rgba(66, 66, 66, 0.9333333333);
   font-size: 40px;

@@ -222,16 +222,21 @@ body .contenedor h2 {
   }
 }
 .container {
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: center;
-  gap: 5px;
+  gap: 12px;
 }
 .container .card {
   width: 100%;
-  max-width: 500px;
   margin-bottom: 20px;
   background-color: #e0dbdb;
+  transition: 0.4s;
+}
+.container .card:hover {
+  transform: scale(1.1, 1.1);
+  box-shadow: 2px 2px 2px 0px;
+  border-radius: 2%;
 }
 .container .card-img-top {
   height: 450px;

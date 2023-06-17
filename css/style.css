@@ -142,7 +142,7 @@ body .contenedor h2 {
     justify-content: center;
   }
   .textoderecha {
-    max-width: 90%;
+    max-width: 100%;
   }
   .contenedormapayubicacion {
     flex-direction: column;

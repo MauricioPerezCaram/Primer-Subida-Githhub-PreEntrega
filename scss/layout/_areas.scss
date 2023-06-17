@@ -1,14 +1,12 @@
 .listaareayfoto {
   display: flex;
-  align-items: center;
-  padding: 15px;
 
   .listaareas {
     display: flex; 
     justify-content: center; 
     font-size: 30px;
     flex-basis: 50%;
-    max-width: 50%;
+    max-width: 100%;
     & ul li {
       font-family: 'Castoro Titling', cursive;
       color: #424242ee;
@@ -19,11 +17,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-basis: 50%;
+    flex-basis: 70%;
     max-width: 100%;
 
     img {
-      max-width: 90%;
+      max-width: 70%;
       height: auto;
       border-radius: 10px;
     }
@@ -31,13 +29,10 @@
 }
 .textoareas {
   padding: 20px;
-  display: flex; 
-  justify-content: center; 
   font-size: 30px;
-  flex-basis: 50%;
   font-family: 'Castoro Titling', cursive;
   color: #424242ee;
-  text-align: left;
+  text-align: center;
 }
 
 

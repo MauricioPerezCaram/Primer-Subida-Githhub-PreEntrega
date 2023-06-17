@@ -119,7 +119,7 @@ body .contenedor .textoderecha {
   align-items: center;
   font-family: sans-serif;
   font-size: 20px;
-  padding: 20px;
+  padding: 10px;
   width: 90%;
 }
 body .contenedor .logogrande {
@@ -135,7 +135,21 @@ body .contenedor h2 {
   padding: 30px;
 }
 
+.historia {
+  margin: 10px;
+  width: 65%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+}
+
 @media (max-width: 1024px) {
+  .historia {
+    width: 100%;
+  }
+  .textoymujerbalanza {
+    display: flex;
+    flex-direction: column;
+  }
   .contenedor {
     flex-direction: column;
     justify-content: center;
@@ -194,9 +208,6 @@ body .contenedor h2 {
   .container {
     flex-direction: column;
     align-items: center;
-  }
-  .mainhistoria {
-    padding-left: 10%;
   }
 }
 @media (max-width: 480px) {
@@ -357,37 +368,12 @@ button[type=reset]:hover {
   display: flex;
   justify-content: flex-end;
 }
-.mainhistoria .content-container {
-  display: flex;
-  justify-content: space-around;
-  width: 95%;
-  padding-top: 40px;
-  margin: 0 auto;
-}
-.mainhistoria .text-container {
-  width: 80%;
-}
-.mainhistoria .image-container {
-  width: 35%;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.mainhistoria .image-container img {
-  max-width: 100%;
-  height: auto;
-  margin-left: 20px;
-}
 .mainhistoria .containerhistoria {
   background-color: #749bca;
   margin: 10px;
   padding: 10px;
   border-radius: 20px;
-}
-.mainhistoria .historia {
-  font-family: "Montserrat", sans-serif;
-  font-size: 22px;
+  margin: 20px;
 }
 .mainhistoria .titulohistoria {
   color: rgba(66, 66, 66, 0.9333333333);
@@ -395,6 +381,25 @@ button[type=reset]:hover {
   padding-top: 25px;
   padding-bottom: 10px;
   font-family: "Castoro Titling", cursive;
+}
+
+.textoymujerbalanza {
+  display: flex;
+  margin: 30px;
+}
+.textoymujerbalanza h2 {
+  font-size: 40px;
+  color: rgba(66, 66, 66, 0.9333333333);
+  font-family: "Castoro Titling", cursive;
+  font-weight: 15;
+  text-align: center;
+  padding: 30px;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 body {

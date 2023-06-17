@@ -1,41 +1,15 @@
 .mainhistoria {
     display: flex;
     justify-content: flex-end;
-    .content-container {
-        display: flex;
-        justify-content: space-around;
-        width: 95%;
-        padding-top: 40px;
-        margin: 0 auto;
-      }
-      .text-container {
-        width: 80%;
-      }
-      .image-container {
-        width: 35%;
-        height: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      
-      .image-container img {
-        max-width: 100%;
-        height: auto; 
-        margin-left: 20px; 
-      }
+        
       
       .containerhistoria {
         background-color: #749bca;
         margin: 10px;
         padding: 10px;
         border-radius: 20px;
-      }
-      .historia {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 22px;
-      }
-      
+        margin: 20px;
+      }      
       .titulohistoria {
         color: #424242ee;
         font-size: 30px;
@@ -44,7 +18,27 @@
         font-family: 'Castoro Titling', cursive;
       }
   }
+  .textoymujerbalanza {
+    display: flex;
+    margin: 30px;
+    & h2 {
+      font-size: 40px;
+      color: #424242ee;
+      font-family: 'Castoro Titling', cursive;
+      font-weight: 15;
+      text-align: center;
+      padding: 30px;
+    }
+  }
+
+  .image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   
+
 
   
 

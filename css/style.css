@@ -111,7 +111,6 @@ body .contenedor {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5px 30px;
 }
 body .contenedor .textoderecha {
   display: flex;
@@ -140,6 +139,8 @@ body .contenedor h2 {
   .contenedor {
     flex-direction: column;
     justify-content: center;
+    padding: 2px;
+    margin: 2px;
   }
   .textoderecha {
     max-width: 100%;

@@ -380,7 +380,8 @@ button[type=reset]:hover {
 
 .textoymujerbalanza {
   display: flex;
-  margin: 30px;
+  margin: 22px;
+  justify-content: space-between;
 }
 .textoymujerbalanza h2 {
   font-size: 40px;

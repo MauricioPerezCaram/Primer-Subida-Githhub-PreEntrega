@@ -9,13 +9,13 @@ body{
     font-family: 'Castoro Titling', cursive;
     font-weight: 10;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 60px;
   }
   .contenedor {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px;
+    margin: 0px 20px;
     .textoderecha {
       @include flex (column, center, center, sans-serif, 20px, 20px);
       width: 90%;

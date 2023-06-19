@@ -105,13 +105,13 @@ body h1 {
   font-family: "Castoro Titling", cursive;
   font-weight: 10;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 60px;
 }
 body .contenedor {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 20px;
+  margin: 0px 20px;
 }
 body .contenedor .textoderecha {
   display: flex;
@@ -382,7 +382,7 @@ button[type=reset]:hover {
 .textoymujerbalanza {
   display: flex;
   margin: 22px;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .textoymujerbalanza h2 {
   font-size: 40px;
@@ -397,6 +397,11 @@ button[type=reset]:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.dondeubicarnos {
+  margin: 5px;
+  font-size: 45px;
 }
 
 body {
